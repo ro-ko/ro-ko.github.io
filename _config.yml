@@ -113,7 +113,7 @@ author:
   avatar           : "/assets/images/profile/bio-image.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "M.S, AI in KU"
   location         : "Seoul, South Korea"
-  email            : "ro_keonwoo@korea.ac.kr"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
