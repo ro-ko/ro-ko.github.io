@@ -15,18 +15,18 @@ use_math: true
 - **M.S. in Artificial intelligence**
 - [Patern recognition and Machine learning laboratory](http://pr.korea.ac.kr/)  
 - [Department of Artificial intelligence](http://xai.korea.ac.kr/), [KU](korea.ac.kr/)
-- [CV webpage]() (Coming soon)
+- [CV webpage]() $$_{(Coming \; soon)}$$
 
 ### 📖 Research Interests
-- Artificial general intelligence (AGI)
+- Artificial general intelligence $$_{(AGI)}$$
 - Machine learning and Deep learning
 - Generative model
 - Generalization
 
 ### 🎓 Education
-- **M.S. course, Artificial intelligence** \\(_{2023-present}\\)
+- **M.S. course, Artificial intelligence** $$_{(2023-present)}$$
   - [KU](korea.ac.kr/), South Korea
-  - [Patern recognition and Machine learning laboratory](http://pr.korea.ac.kr/) (PRML LAB)
+  - [Patern recognition and Machine learning laboratory](http://pr.korea.ac.kr/) $$_{(PRML \; LAB)}$$
   - Advisor : Sung-Hwan Lee
-- **B.S., Mathematics & Computer Science** \\(_{2017-2023}\\)
+- **B.S., Mathematics & Computer Science** $$_{(2017-2023)}$$
   - [JBNU](https://www.jbnu.ac.kr/), South Korea

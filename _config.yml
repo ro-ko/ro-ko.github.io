@@ -20,9 +20,12 @@ title                    : "ROKO"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ro Keonwoo"
-description              : "Artificial intelligence, Machine learning, Deep learning"
+description              : >- # this means to ignore newlines until "baseurl:"
+  I study about Artificial intelligence, Machine learning, Deep learning
+  I am a AI Researcher in korea unviersity
+  I explain machine learning concepts using diagrams, animations and intuition
 url                      : "https://ro-ko.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+# baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ro-ko/ro-ko.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -90,9 +93,11 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person # Person or Organization (defaults to Person)
+  name                   : Keonwoo Ro # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://github.com/ro-ko/"
+    - "https://www.linkedin.com/in/keonwoo-ro-157169274"
 
 # Analytics
 analytics:
@@ -105,7 +110,7 @@ analytics:
 # Site Author
 author:
   name             : "Keonwoo Ro"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile/bio-image.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "M.S, AI in KU"
   location         : "Seoul, South Korea"
   email            : "ro_keonwoo@korea.ac.kr"
@@ -130,7 +135,7 @@ author:
       # url: "https://instagram.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/건우-노-157169274/"
+      url: "https://www.linkedin.com/in/keonwoo-ro-157169274/"
     - label: "Posts list"
       icon: "fas fa-fw fa-list"
       # url: ???
@@ -158,7 +163,7 @@ footer:
       # url:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/건우-노-157169274/"
+      url: "https://www.linkedin.com/in/keonwoo-ro-157169274/"
 
 
 # Reading Files
