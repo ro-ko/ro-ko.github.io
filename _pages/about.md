@@ -13,8 +13,8 @@ use_math: true
 
 ### 👤 **Keonwoo Ro**  
 - **M.S. in Artificial intelligence**
-- [Patern recognition and Machine learning laboratory](http://pr.korea.ac.kr/)  
-- [Department of Artificial intelligence](http://xai.korea.ac.kr/), [KU](korea.ac.kr/)
+- [Patern recognition and Machine learning laboratory](http://pr.korea.ac.kr/){:target="_blank"}
+- [Department of Artificial intelligence](http://xai.korea.ac.kr/){:target="_blank"}, [KU](korea.ac.kr/){:target="_blank"}
 - [CV webpage]() $$_{(Coming \; soon)}$$
 
 ### 📖 Research Interests
@@ -25,8 +25,8 @@ use_math: true
 
 ### 🎓 Education
 - **M.S. course, Artificial intelligence** $$_{(2023-present)}$$
-  - [KU](korea.ac.kr/), South Korea
-  - [Patern recognition and Machine learning laboratory](http://pr.korea.ac.kr/) $$_{(PRML \; LAB)}$$
+  - [KU](korea.ac.kr/){:target="_blank"}, South Korea
+  - [Patern recognition and Machine learning laboratory](http://pr.korea.ac.kr/){:target="_blank"} $$_{(PRML \; LAB)}$$
   - Advisor : Sung-Hwan Lee
 - **B.S., Mathematics & Computer Science** $$_{(2017-2023)}$$
-  - [JBNU](https://www.jbnu.ac.kr/), South Korea
+  - [JBNU](https://www.jbnu.ac.kr/){:target="_blank"}, South Korea
