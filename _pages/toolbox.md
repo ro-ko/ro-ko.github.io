@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
 ---
 
-This page contains useful libraries I've found when working on Machine Learning projects.  Most of the information is [here].(https://amitness.com/){:target="_blank"} Page is continuously being updated.
+This page contains useful libraries I've found when working on Machine Learning projects.  Most of the information is [here](https://amitness.com/){:target="_blank"}. Page is continuously being updated.
 
 The libraries are organized below by phases of a typical Machine Learning project.  
 
