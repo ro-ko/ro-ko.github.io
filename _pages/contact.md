@@ -1,6 +1,6 @@
 ---
-permalink: /contact/
 title: "Contact"
+permalink: /contact/
 classes: wide
 excerpt: Ways to connect with me through social media such as Twitter and Linkedin and via email.
 ---

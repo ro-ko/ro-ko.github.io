@@ -1,11 +1,8 @@
 ---
-permalink: /about/
 title: "About"
 excerpt: Learn about me, my current endeavors, research interest areas, and the motive behind this personal blog.
 layout: single
-author_profile: true
-sidebar_main: true
-
+permalink: /about/
 classes: wide
 
 use_math: true
