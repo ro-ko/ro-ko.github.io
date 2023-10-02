@@ -24,7 +24,7 @@ My blog is made of [minimal mistakes](https://mmistakes.github.io/minimal-mistak
 
 
 
-Thank you for your visiting again, let's see you soon! 
+Thank you for your visit, let's see you soon! 
 
 
 <!--more-->
