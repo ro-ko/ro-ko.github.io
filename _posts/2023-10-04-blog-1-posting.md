@@ -1,6 +1,6 @@
 ---
 title: "Blog development: Install minmal projects (1)"
-excerpt_separator: "<!--more-->"
+excerpt_separator: "gitpage와 minimal-mistakes를 이용한 블로그 만들기"
 categories:
   - Blog
 tags:
