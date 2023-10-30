@@ -37,7 +37,6 @@ github에서는 무료로 정적 사이트 호스팅 서비스를 제공해주�
 [Minimal mistakes](https://mmistakes.github.io/minimal-mistakes/)를 기본 템플릿으로 사용했습니다.  
 **Release version - 4.24.0**
 
-
 ### Environment  
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/512px-UbuntuCoF.svg.png" alt="ubuntu logo" width="20%">
 
