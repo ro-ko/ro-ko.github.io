@@ -6,15 +6,15 @@ categories:
 tags:
   - Blog
 toc: true
-toc:_sticky: true
+toc_sticky: true
 toc_label: "On this page"
 ---
 
 ## Background  
 ### What is gitpage?  
-<div style="text-align:center">
+<div style="text-align:center;padding:10px;">
   <img src="https://qph.cf2.quoracdn.net/main-qimg-6ad8361237d74cc2894a6b63005dbc28-pjlq" alt="Git N Github relation" width="60%">
-</div>  
+</div>
 
 github는 VCS(version control system)인 git을 백업해 관리하는 오픈소스 웹호스팅 플랫폼입니다. 프로젝트의 버전을 관리하기도 하고 여러 사람들과 협업할 때 사용하는 유용한 툴이죠.  
 
@@ -43,8 +43,7 @@ github에서는 무료로 정적 사이트 호스팅 서비스를 제공해주�
 
 **Ubnuntu version - 22.04**  
 
-jekyll은 ruby 언어 기반 framework입니다.  
-따라서 우선 ruby를 설치합니다.  
+jekyll은 ruby 언어 기반 framework입니다. 따라서 ruby를 설치합니다.  
 각 OS별 install ruby 명령어를 참고하여 설치해주세요. $\rightarrow$ [Ruby install docs](https://www.ruby-lang.org/en/documentation/installation/)  
 
 **jekyll은 32bits 기반으로 (x86) 버전 ruby를 다운받으셔야 합니다.**
@@ -106,7 +105,7 @@ website layout을 모두 구현해도 되지만 맘에드는 jekyll theme이 있
 저는 local server에서 작성 후 이상이 없는지 확인 후 gitpage에 push하여 블로그를 업데이트하고 있습니다.  
 어떠한 기능을 사전에 테스트 해볼 수도 있고 혹시나 중간 과정에서 에러가 생겨 꼬이는것을 방지하는 목적입니다.  
 
-**install minimal-mistakes repo**  
+**download minimal-mistakes repo**  
 minimal-mistakes template repo에서 clone을 통해 파일 전체 다운로드
 
 ![template-files]({{ site.url }}{{ site.baseurl }}/assets/images/posts/blog/template-files.png)
@@ -129,7 +128,7 @@ bundler를 설치하고 다음 명령어를 실행하면 local server를 이용�
 
 1번은 필요로 하는 파일을 설치 후 gemfile 파일에 적어주시고 2번은 해당 library를 지우시고 호환되는 버전으로 다시 재설치하시면 됩니다.
 
-## Remote theme method
+### Remote theme method
 
 gem based method 방식과 똑같이 진행하는데 차이점은 파일 다운로드 후 _config.yml 파일을 수정해야 합니다.
 
@@ -161,7 +160,7 @@ bundle exec jekyll serve
 https://127.0.0.1:4000 or https://localhost:4000 로 확인  
 과정에서 발생하는 에러는 대부분 library 설치나 호환성 문제입니다.
 
-## Fork minimal-mistakes repository or Download files directly
+### Fork minimal-mistakes repository or Download files directly
 gitpage와 연동하여 사용하려면 위 방식을 이용해야합니다.
 
 우선 minimal-mistakes repo를 fork하거나 직접 다운로드하여 gitpage repo에 push하거나 원하는대로 진행합니다. 이후 필요없는 파일을 삭제해줍니다.  
