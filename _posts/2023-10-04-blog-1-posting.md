@@ -14,9 +14,9 @@ toc_label: "On this page"
 ### What is gitpage?  
 <div style="text-align:center">
   <img src="https://qph.cf2.quoracdn.net/main-qimg-6ad8361237d74cc2894a6b63005dbc28-pjlq" alt="Git N Github relation" width="60%">
-</div>
+</div>  
 
-github는 VCS(version control system)인 git을 백업해 관리하는 오픈소스 웹호스팅 플랫폼입니다. 프로젝트의 버전을 관리하기도 하고 여러 사람들과 협업할 때 사용하는 유용한 툴이죠.
+github는 VCS(version control system)인 git을 백업해 관리하는 오픈소스 웹호스팅 플랫폼입니다. 프로젝트의 버전을 관리하기도 하고 여러 사람들과 협업할 때 사용하는 유용한 툴이죠.  
 
 github에서는 무료로 정적 사이트 호스팅 서비스를 제공해주고 있습니다. 하지만 비용이 드는 부분 서비스이기 때문에 usage limits가 있는데요.
 
@@ -32,7 +32,7 @@ github에서는 무료로 정적 사이트 호스팅 서비스를 제공해주�
 이러한 제한을 본다면 개인 기술 블로그로 사용하기 적절하다는걸 알 수 있습니다.  
 
 ### Template
-<img src="https://mmistakes.github.io/minimal-mistakes/assets/images/mm-layout-archive.png" alt="template sample" width="80%">
+<img src="https://mmistakes.github.io/minimal-mistakes/assets/images/mm-layout-archive.png" alt="template sample">
 
 [Minimal mistakes](https://mmistakes.github.io/minimal-mistakes/)를 기본 템플릿으로 사용했습니다.  
 **Release version - 4.24.0**
@@ -70,14 +70,19 @@ gitpage는 3가지 type의 구성 방식이 존재합니다.
 
 ![gitpage-repo]({{ site.url }}{{ site.baseurl }}/assets/images/posts/blog/gitpage-repo.png)
 
-ex)  
-**Repository name** : `ro-ko.github.io`  
-\<user> -> github 사용자 계정명  
-**Description** :  `personal blog`  
+ex)
+``` 
+Repository name : `ro-ko.github.io`  
+<user> : github 사용자 계정명
+
+Description :  `personal blog`  
 부연설명 (선택사항)  
-**Public or Private** : `Public`  
-**Initialize this repo with** : `None`  
+
+Public or Private : `Public`  
+
+Initialize this repo with : `None`  
 초기화 옵션 (선택사항)  
+```
 
 repo 생성 이후 해당 repo의 settings에 들어가 왼쪽 목록에서 Pages를 클릭합니다.  
 정상적이라면 윗 부분에 `Your site is live at https://ro-ko.github.io/` 를 확인 할 수 있습니다.
@@ -98,12 +103,10 @@ website layout을 모두 구현해도 되지만 맘에드는 jekyll theme이 있
 여기서 우리는 gitpage를 이용할 목적이므로 3번을 이용하면 되고 1,2번은 기호에 따라 시도해 보시기 바랍니다.
 
 ### Gem based method
-local server를 이용해 실행하는 방식입니다.  
 저는 local server에서 작성 후 이상이 없는지 확인 후 gitpage에 push하여 블로그를 업데이트하고 있습니다.  
 어떠한 기능을 사전에 테스트 해볼 수도 있고 혹시나 중간 과정에서 에러가 생겨 꼬이는것을 방지하는 목적입니다.  
 
-1. install minimal-mistakes repo  
-
+**install minimal-mistakes repo**  
 minimal-mistakes template repo에서 clone을 통해 파일 전체 다운로드
 
 ![template-files]({{ site.url }}{{ site.baseurl }}/assets/images/posts/blog/template-files.png)
@@ -142,7 +145,7 @@ plugins:
 ```
 
 `Gemfile` 수정
-```gem
+```
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
@@ -180,3 +183,12 @@ https://127.0.0.1:4000 or https://localhost:4000 로 확인
 
 수정된 내역을 내 gitpage repo에 push 하고 `https://<username>.github.io` 로 확인합니다.  
 바로 뜨지 않는 경우는 빌드시간이 걸리는 것이므로 잠시 기다렸다가 새로고침, 재접속 해주시면 됩니다. 장기간 동안 뜨지 않거나 error 화면이 뜬다면 과정에서 발생하는 에러는 대부분 library 설치나 호환성 문제입니다.
+
+제가 참고한 블로그를 링크로 남겨놓겠습니다. 제 설명이 부족하거나 어려우시다면 참고링크를 보시면 좋을 것 같습니다.  
+
+> Reference
+>
+> [blog-extrabrain](https://seungwubaek.github.io/)  
+> [blog-dodev](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-1/)  
+> [blog-공유의가치를추구하는개발자](https://velog.io/@eona1301/Github-Blog-Jekyll-minimal-mistakes-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)  
+> [blog-kimss](https://kimss1502.github.io/%EB%B8%94%EB%A1%9C%EA%B9%85/2.-GitHub-pages-%EB%A1%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0/#31-gem-%EA%B8%B0%EB%B0%98-%EB%B0%A9%EB%B2%95-minimal-mistakes-%ED%85%8C%EB%A7%88%EB%8A%94-github-%EC%A7%80%EC%9B%90-x)
