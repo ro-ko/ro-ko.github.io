@@ -161,7 +161,7 @@ https://127.0.0.1:4000 or https://localhost:4000 로 확인
 과정에서 발생하는 에러는 대부분 library 설치나 호환성 문제입니다.
 
 ### Fork minimal-mistakes repository or Download files directly
-gitpage와 연동하여 사용하려면 위 방식을 이용해야합니다.
+gitpage와 연동하여 사용하려면 위 방식을 이용해야 합니다.
 
 우선 minimal-mistakes repo를 fork하거나 직접 다운로드하여 gitpage repo에 push하거나 원하는대로 진행합니다. 이후 필요없는 파일을 삭제해줍니다.  
 [gem based method](#gem-based-method) 참고
