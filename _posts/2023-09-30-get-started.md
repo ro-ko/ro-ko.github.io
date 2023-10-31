@@ -1,6 +1,6 @@
 ---
 title: "Blog: Get started"
-excerpt_separator: "My first post"
+excerpt: "My first post"
 categories:
   - Blog
 tags:

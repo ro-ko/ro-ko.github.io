@@ -1,6 +1,6 @@
 ---
 title: "Blog development: Install minmal projects (2)"
-excerpt_separator: "minimal-mistakes 파일구조 알아보고 수정하기"
+excerpt: "minimal-mistakes 파일구조 알아보고 수정하기"
 categories:
   - Blog
 tags:
@@ -125,17 +125,17 @@ scss file이란 css 전처리기(preprocessor)로 css의 단점을 보완한 컴
 ### 📁 `_pages`
 ```bash
 .
-├── 404.md
-├── about.md
-├── archives.md
-├── categories.md
-├── contact.md
-├── cookbook.md
-├── nlp.md
-├── notebooks.md
-├── tags.md
-├── toolbox.md
-└── web-toolbox.md
+├── 📄 404.md
+├── 📄 about.md
+├── 📄 archives.md
+├── 📄 categories.md
+├── 📄 contact.md
+├── 📄 cookbook.md
+├── 📄 nlp.md
+├── 📄 notebooks.md
+├── 📄 tags.md
+├── 📄 toolbox.md
+└── 📄 web-toolbox.md
 ```
 반복되지 않는 특정 목적을 가진 문서들입니다. static한 특징이 있으며 변동이 많은 dynamic한 `_posts`와 차이가 있습니다. [Reference](https://ojji.wayful.com/2014/01/Google-Blogger-Difference-between-Posts-and-Pages.html)
 
@@ -145,8 +145,8 @@ scss file이란 css 전처리기(preprocessor)로 css의 단점을 보완한 컴
 ### 📁 `_sass`
 ```bash
 .
-├── minimal-mistakes
-└── minimal-mistakes.scss
+├── 📁 minimal-mistakes
+└── 📄 minimal-mistakes.scss
 ```
 minimal-mistakes template에 관련된 css 파일을 다룹니다. scss는 css의 컴파일용 언어입니다. [Reference](https://sass-lang.com/guide/)
 
@@ -181,7 +181,7 @@ ruby syntax와 Makefile 역할을 수행합니다.
 ### 📄 `staticman.yml`
 static website를 만드는데 필요한 설정파일입니다. [Reference](https://staticman.net/docs/configuration)
 
-## _config.yml 수정하기
+## _config.yml 수정
 하나씩 값을 바꿔보며 확인하시면서 필요한부분을 쓰시면 됩니다. 대표적인 부분만 설명하겠습니다.
 ### Basic configuration
 ```yml
