@@ -6,8 +6,8 @@ categories:
 tags:
   - Blog
 toc: true
-toc:_sticky: true
-toc_label: "First post"
+toc_sticky: true
+toc_label: "On this page"
 ---
 
 ## Welcome to my blog

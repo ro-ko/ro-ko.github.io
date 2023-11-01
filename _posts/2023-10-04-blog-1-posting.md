@@ -16,26 +16,28 @@ toc_label: "On this page"
   <img src="https://qph.cf2.quoracdn.net/main-qimg-6ad8361237d74cc2894a6b63005dbc28-pjlq" alt="Git N Github relation" width="60%">
 </div>
 
-github는 VCS(version control system)인 git을 백업해 관리하는 오픈소스 웹호스팅 플랫폼입니다. 프로젝트의 버전을 관리하기도 하고 여러 사람들과 협업할 때 사용하는 유용한 툴이죠.  
+github는 VCS(version control system)인 git을 백업해 관리하는 오픈소스 웹호스팅 플랫폼입니다. 프로젝트의 버전을 관리하기도 하고 여러 사람들과 협업할 때 사용하는 유용한 툴이죠.
 
 github에서는 무료로 정적 사이트 호스팅 서비스를 제공해주고 있습니다. 하지만 비용이 드는 부분 서비스이기 때문에 usage limits가 있는데요.
 
 
-[Gitpage reference](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
+[Gitpage reference](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages){:target="_blank"}
 
 ```
 1. 웹호스팅으로 사용할 저장소의 최대 용량은 1GB
 2. Gitpage 매달 100GB의 soft bandwidth 지원
 3. 매 시간당 10번의 soft build limit
+4. static site만 지원 server side programming language(PHP, Ruby, Python) 지원하지 않음
 ```
 
 이러한 제한을 본다면 개인 기술 블로그로 사용하기 적절하다는걸 알 수 있습니다.  
 
 ### Template
-<img src="https://mmistakes.github.io/minimal-mistakes/assets/images/mm-layout-archive.png" alt="template sample">
+<img src="https://mmistakes.github.io/minimal-mistakes/assets/images/mm-layout-archive.png" alt="template sample" width="80%">
 
-[Minimal mistakes](https://mmistakes.github.io/minimal-mistakes/)를 기본 템플릿으로 사용했습니다.  
+[Minimal mistakes](https://mmistakes.github.io/minimal-mistakes/){:target="_blank"}를 기본 템플릿으로 사용했습니다.  
 **Release version - 4.24.0**
+
 
 ### Environment  
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/512px-UbuntuCoF.svg.png" alt="ubuntu logo" width="20%">
@@ -43,7 +45,7 @@ github에서는 무료로 정적 사이트 호스팅 서비스를 제공해주�
 **Ubnuntu version - 22.04**  
 
 jekyll은 ruby 언어 기반 framework입니다. 따라서 ruby를 설치합니다.  
-각 OS별 install ruby 명령어를 참고하여 설치해주세요. $\rightarrow$ [Ruby install docs](https://www.ruby-lang.org/en/documentation/installation/)  
+각 OS별 install ruby 명령어를 참고하여 설치해주세요. $\rightarrow$ [Ruby install docs](https://www.ruby-lang.org/en/documentation/installation/){:target="_blank"}  
 
 **jekyll은 32bits 기반으로 (x86) 버전 ruby를 다운받으셔야 합니다.**
 
@@ -89,9 +91,9 @@ gitpage는 jekyll을 기반으로 웹호스팅을 제공해줍니다. 만약 jek
 
 ## Install minimal mistakes template
 Username으로 repo를 만들고 jekyll을 사용한다는 가정하에 설명하겠습니다.  
-website layout을 모두 구현해도 되지만 맘에드는 jekyll theme이 있다면 이를 이용하는것도 좋습니다.
+website layout을 모두 구현해도 되지만 맘에 드는 jekyll theme이 있다면 이를 이용하는 것도 좋습니다.
 
-저는 [minimal mistakes](https://github.com/mmistakes/minimal-mistakes)를 선택하였습니다. 다른 테마를 원한다면 https://github.com/topics/jekyll-theme 이나 http://jekyllthemes.org/ 에서 찾아보시면 됩니다.
+저는 [minimal mistakes](https://github.com/mmistakes/minimal-mistakes){:target="_blank"}를 선택하였습니다. 다른 테마를 원한다면 [https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme){:target="_blank"} 이나 [http://jekyllthemes.org/](http://jekyllthemes.org/){:target="_blank"} 에서 찾아보시면 됩니다.
 
 > jekyll theme을 이용해 블로그를 설치하고 운영하는 방식은 크게 3가지로 나뉩니다.
 > 1. Gem based method
@@ -109,7 +111,7 @@ minimal-mistakes template repo에서 clone을 통해 파일 전체 다운로드
 
 ![template-files]({{ site.url }}{{ site.baseurl }}/assets/images/posts/blog/template-files.png)
 
-🟥 는 필요없는 파일들로 삭제해도 됩니다. 그중 travis.yml은 CI를 위한 환경설정 파일인데 test가 필요하신분만 사용하시고 아니신분들은 삭제하시면 됩니다.
+🟥 는 필요없는 파일들로 삭제해도 됩니다. 그중 travis.yml은 CI를 위한 환경설정 파일인데 test가 필요하신분만 사용하시고 아니신분들은 삭제하시면 됩니다.  
 
 🟩 또한 블로그 구성에는 필요없지만 레이아웃이나 작성 요령을 살펴볼 수 있어 post 작성시 참고하시면 좋습니다. docs에서 _pages와 _posts는 기본적으로 필요하기 때문에 상위 폴더로 복사해주세요.
 
@@ -175,6 +177,7 @@ bundler 설치 후 실행
 ```bash
 gem install bundler
 bundle exec jekyll serve
+use_math: true
 ```
 
 https://127.0.0.1:4000 or https://localhost:4000 로 확인  
@@ -186,7 +189,7 @@ https://127.0.0.1:4000 or https://localhost:4000 로 확인
 
 > Reference
 >
-> [blog-extrabrain](https://seungwubaek.github.io/)  
-> [blog-dodev](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-1/)  
-> [blog-공유의가치를추구하는개발자](https://velog.io/@eona1301/Github-Blog-Jekyll-minimal-mistakes-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)  
-> [blog-kimss](https://kimss1502.github.io/%EB%B8%94%EB%A1%9C%EA%B9%85/2.-GitHub-pages-%EB%A1%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0/#31-gem-%EA%B8%B0%EB%B0%98-%EB%B0%A9%EB%B2%95-minimal-mistakes-%ED%85%8C%EB%A7%88%EB%8A%94-github-%EC%A7%80%EC%9B%90-x)
+> [blog-extrabrain](https://seungwubaek.github.io/){:target="_blank"}  
+> [blog-dodev](https://wlqmffl0102.github.io/posts/Making-Git-blogs-for-beginners-1/){:target="_blank"}  
+> [blog-공유의 가치를 추구하는 개발자](https://velog.io/@eona1301/Github-Blog-Jekyll-minimal-mistakes-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0){:target="_blank"}  
+> [blog-kimss](https://kimss1502.github.io/%EB%B8%94%EB%A1%9C%EA%B9%85/2.-GitHub-pages-%EB%A1%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0/#31-gem-%EA%B8%B0%EB%B0%98-%EB%B0%A9%EB%B2%95-minimal-mistakes-%ED%85%8C%EB%A7%88%EB%8A%94-github-%EC%A7%80%EC%9B%90-x){:target="_blank"}

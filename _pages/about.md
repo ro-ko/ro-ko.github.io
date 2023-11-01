@@ -27,3 +27,9 @@ use_math: true
   - Advisor : Sung-Hwan Lee
 - **B.S., Mathematics & Computer Science** $$_{(2017-2023)}$$
   - [JBNU](https://www.jbnu.ac.kr/){:target="_blank"}, South Korea
+
+### 📌 Notice
+- I'am managing 2 blogs tistory and gitpage  
+- Gitpage introduces more academic and research contents
+- The another is more light, useful gist and personal contents
+- Here is another blog $\rightarrow$ [Tistory blog](https://ro-ko.tistory.com/){:target="_blank"}

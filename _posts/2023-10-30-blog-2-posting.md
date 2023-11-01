@@ -137,7 +137,7 @@ scss file이란 css 전처리기(preprocessor)로 css의 단점을 보완한 컴
 ├── 📄 toolbox.md
 └── 📄 web-toolbox.md
 ```
-반복되지 않는 특정 목적을 가진 문서들입니다. static한 특징이 있으며 변동이 많은 dynamic한 `_posts`와 차이가 있습니다. [Reference](https://ojji.wayful.com/2014/01/Google-Blogger-Difference-between-Posts-and-Pages.html)
+반복되지 않는 특정 목적을 가진 문서들입니다. static한 특징이 있으며 변동이 많은 dynamic한 `_posts`와 차이가 있습니다. [Reference](https://ojji.wayful.com/2014/01/Google-Blogger-Difference-between-Posts-and-Pages.html){:target="_blank"}
 
 ### 📁 `_posts`
 게시물을 저장할 폴더입니다.
@@ -148,10 +148,10 @@ scss file이란 css 전처리기(preprocessor)로 css의 단점을 보완한 컴
 ├── 📁 minimal-mistakes
 └── 📄 minimal-mistakes.scss
 ```
-minimal-mistakes template에 관련된 css 파일을 다룹니다. scss는 css의 컴파일용 언어입니다. [Reference](https://sass-lang.com/guide/)
+minimal-mistakes template에 관련된 css 파일을 다룹니다. scss는 css의 컴파일용 언어입니다. [Reference](https://sass-lang.com/guide/){:target="_blank"}
 
 ### 📄 `banner.js`
-배포가 아닌 테마 개발 과정에서 필요한 파일입니다. js 파일들을 압축하고 배너 텍스트를 추가해주는 역할을 합니다. [Reference](https://github.com/mmistakes/minimal-mistakes/issues/2143)
+배포가 아닌 테마 개발 과정에서 필요한 파일입니다. js 파일들을 압축하고 배너 텍스트를 추가해주는 역할을 합니다. [Reference](https://github.com/mmistakes/minimal-mistakes/issues/2143){:target="_blank"}
 
 ### 📄 `_config.yml`
 블로그를 구성하는 기본적인 설정값들을 모아놓은 파일입니다.  
@@ -167,7 +167,7 @@ minimal-mistakes template에 관련된 css 파일을 다룹니다. scss는 css�
 해당 템플릿의 저작권에 권련된 내용입니다. MIT 라이센스로 자유롭게 사용가능합니다.
 
 ### 📄 `package.json`
-npm으로 설치한 파일들의 명세를 표시합니다. 호환문제나 협업에 필수적입니다. [Reference](https://hoya-kim.github.io/2021/09/14/package-json/)
+npm으로 설치한 파일들의 명세를 표시합니다. 호환문제나 협업에 필수적입니다. [Reference](https://hoya-kim.github.io/2021/09/14/package-json/){:target="_blank"}
 
 ### 📄 `package-lock.json`
 npm을 실행하면 자동적으로 생성되는 파일입니다.
@@ -179,7 +179,7 @@ gitpage에 올리지 않을 내용을 기입합니다. 보안에 관련되거나
 ruby syntax와 Makefile 역할을 수행합니다.
 
 ### 📄 `staticman.yml`
-static website를 만드는데 필요한 설정파일입니다. [Reference](https://staticman.net/docs/configuration)
+static website를 만드는데 필요한 설정파일입니다. [Reference](https://staticman.net/docs/configuration){:target="_blank"}
 
 ## _config.yml 수정
 하나씩 값을 바꿔보며 확인하시면서 필요한부분을 쓰시면 됩니다. 대표적인 부분만 설명하겠습니다.
@@ -209,7 +209,7 @@ yml에 기본주석으로 자세한 설명이 되어있으니 참고하시고 �
 1. `locale` : 언어 설정입니다. 한국어는 `ko-KR`로 하시면 됩니다.
 2. `title` : 본인 블로그이니 본인만의 블로그 대표 이름을 지으셔야겠죠?
 3. `name` : 2번과 같은 이유입니다.
-4. `baseurl` : 공백으로 남겨놔 주세요. 최상위 root에서 시작하는게 아니라면 쓸 일이 없습니다. [Reference](https://wodonggun.github.io/html/Baseurl-%EC%A0%95%EB%A6%AC.html)
+4. `baseurl` : 공백으로 남겨놔 주세요. 최상위 root에서 시작하는게 아니라면 쓸 일이 없습니다. [Reference](https://wodonggun.github.io/html/Baseurl-%EC%A0%95%EB%A6%AC.html){:target="_blank"}
 5. `url` : `https://<username>.github.io` 접속할 웹 주소입니다.
 6. `repository` : 계정 이름으로 만들었으므로 `<username>/<username>.gihub.io` 입니다.
 
@@ -302,7 +302,7 @@ defaults:
 
 > Reference
 >
-> [blog-공부하는식빵맘](https://ansohxxn.github.io/blog/jekyll-directory-structure/#-gemfile)  
-> [blog-suhwan jee](https://suhwan.dev/2017/06/23/jekyll-project-structure/)  
-> [docs-minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/)  
-> [docs-jekyll](https://jekyllrb-ko.github.io/)
+> [blog-공부하는식빵맘](https://ansohxxn.github.io/blog/jekyll-directory-structure/#-gemfile){:target="_blank"}  
+> [blog-suhwan jee](https://suhwan.dev/2017/06/23/jekyll-project-structure/){:target="_blank"}  
+> [docs-minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/){:target="_blank"}  
+> [docs-jekyll](https://jekyllrb-ko.github.io/){:target="_blank"}
