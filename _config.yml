@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "ROKO"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Ro Keonwoo"
+name                     : "Roh Keonwoo"
 description              : >- # this means to ignore newlines until "baseurl:"
   I study about Artificial intelligence, Machine learning, Deep learning
   I am a AI Researcher in korea unviersity
@@ -33,7 +33,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : "ro-ko-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -44,7 +44,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
+    theme                : github-dark # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
@@ -94,10 +94,10 @@ og_image                 : "/assets/images/profile/roko.png" # Open Graph/Twitte
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : Person # Person or Organization (defaults to Person)
-  name                   : Keonwoo Ro # If the user or organization name differs from the site's name
+  name                   : Keonwoo Roh # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://github.com/ro-ko/"
-    - "https://www.linkedin.com/in/keonwoo-ro-157169274"
+    - "https://www.linkedin.com/in/keonwoo-roh-19a5452a3/"
 
 # Analytics
 analytics:
@@ -109,7 +109,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Keonwoo Ro"
+  name             : "Keonwoo Roh"
   avatar           : "/assets/images/profile/bio-image.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "M.S, AI in KU"
   location         : "Seoul, South Korea"
@@ -135,7 +135,7 @@ author:
       url: "https://instagram.com/rokeonwoo"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/keonwoo-ro-157169274/"
+      url: "https://www.linkedin.com/in/keonwoo-roh-19a5452a3/"
     - label: "Posts list"
       icon: "fas fa-fw fa-list"
       # url: ???
@@ -163,7 +163,7 @@ footer:
       url: "https://instagram.com/rokeonwoo"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/keonwoo-ro-157169274/"
+      url: "https://www.linkedin.com/in/keonwoo-roh-19a5452a3/"
 
 
 # Reading Files
