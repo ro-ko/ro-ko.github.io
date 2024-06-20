@@ -71,7 +71,7 @@ window.onload = function () {
       let start = text.indexOf('[');
       let end = text.indexOf(']')
       key = text.substring(start+1, end);
-      if (key==='hanna' || key==='luke') {
+      if (key==='sunghwan') {
         text =  text.substring(0, start) + "<a href='" + people_website[key] + "' target='_blank'>" + people[key] + "</a>" + text.substring(end+1, text.length);
       } else {
         console.assert(key in pub_dictionary);
