@@ -1,0 +1,6 @@
+@inproceedings{ min2022metaicl,
+  title={ Meta{ICL}: Learning to Learn In Context },
+  author={ Min, Sewon and Lewis, Mike and Zettlemoyer, Luke and Hajishirzi, Hannaneh },
+  booktitle={ NAACL-HLT },
+  year={ 2022 }
+}

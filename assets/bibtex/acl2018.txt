@@ -1,0 +1,6 @@
+@inproceedings{ min2018efficient,
+  title={ Efficient and Robust Question Answering from Minimal Context over Documents },
+  author={ Min, Sewon and Zhong, Victor and Socher, Richard and Xiong, Caiming },
+  booktitle={ ACL },
+  year={ 2018 }
+}

@@ -1,0 +1,6 @@
+@inproceedings{ si2022re,
+    title={ Re-Examining Calibration: The Case of Question Answering },
+    author={ Si, Chenglei Si and Zhao, Chen and Min, Sewon and Boyd-Graber, Jordan },
+    booktitle={ Findings of EMNLP },
+    year={ 2022 }
+}

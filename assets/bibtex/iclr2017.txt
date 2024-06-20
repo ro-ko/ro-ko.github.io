@@ -1,0 +1,6 @@
+@inproceedings{ seo2016query,
+  title={ Query-reduction networks for question answering },
+  author={ Seo, Minjoon and Min, Sewon and Farhadi, Ali and Hajishirzi, Hannaneh },
+  booktitle={ ICLR },
+  year={ 2017 }
+}

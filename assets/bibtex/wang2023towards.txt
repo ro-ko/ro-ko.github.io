@@ -1,0 +1,7 @@
+@inproceedings{ wang2023towards,
+    title={ Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters }, 
+    author={ Wang, Boshi and Min, Sewon and Deng, Xiang and Shen, Jiaming and Wu, You and Zettlemoyer, Luke and Sun, Huan },
+    year={ 2023 },
+    booktitle={ ACL },
+    url={ https://arxiv.org/abs/2212.10001 }
+}

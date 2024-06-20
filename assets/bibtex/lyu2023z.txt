@@ -1,0 +1,6 @@
+@inproceedings{ lyu2023zicl,
+    title={ Z-ICL: Zero-Shot In-Context Learning with Pseudo-Demonstrations },
+    author={ Lyu, Xinxi and Min, Sewon and Beltagy, Iz and Zettlemoyer, Luke and Hajishirzi, Hannaneh },
+    booktitle={ ACL },
+    year={ 2023 }
+}

@@ -1,0 +1,6 @@
+@inproceedings{ min2019discrete,
+  title={ A Discrete Hard {EM} Approach for Weakly Supervised Question Answering },
+  author={ Min, Sewon and Chen, Danqi and Hajishirzi, Hannaneh and Zettlemoyer, Luke },
+  booktitle={ EMNLP },
+  year={ 2019 }
+}

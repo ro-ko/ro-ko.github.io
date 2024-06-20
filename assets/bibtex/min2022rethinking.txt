@@ -1,0 +1,6 @@
+@inproceedings{ min2022rethinking,
+    title={ Rethinking the Role of Demonstrations: What makes In-context Learning Work? },
+    author={ Min, Sewon and Lyu, Xinxi and Holtzman, Ari and Artetxe, Mikel and Lewis, Mike and Hajishirzi, Hannaneh and Zettlemoyer, Luke },
+    booktitle={ EMNLP },
+    year={ 2022 }
+}

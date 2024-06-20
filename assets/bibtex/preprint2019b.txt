@@ -1,0 +1,6 @@
+@article{ min2019knowledge ,
+  title={ Knowledge Guided Text Retrieval and Reading for Open Domain Question Answering },
+  author={ Min, Sewon and Chen, Danqi and Zettlemoyer, Luke and Hajishirzi, Hannaneh },
+  journal={ arXiv preprint arXiv:1911.03868 },
+  year={ 2019 }
+}

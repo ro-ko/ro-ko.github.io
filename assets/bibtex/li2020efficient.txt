@@ -1,0 +1,6 @@
+@inproceedings{ li2020efficient,
+    title={ Efficient One-Pass End-to-End Entity Linking for Questions },
+    author={ Li, Belinda Z. and Min, Sewon and Iyer, Srinivasan and Mehdad, Yashar and Yih, Wen-tau },
+    booktitle={ EMNLP },
+    year={ 2020 }
+}

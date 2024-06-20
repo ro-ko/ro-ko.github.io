@@ -1,0 +1,6 @@
+@inproceedings{ min2019multi,
+  title={ Multi-hop Reading Comprehension through Question Decomposition and Rescoring },
+  author={ Min, Sewon and Zhong, Victor and Zettlemoyer, Luke and Hajishirzi, Hannaneh },
+  booktitle={ ACL },
+  year={ 2019 }
+}

@@ -1,0 +1,7 @@
+@inproceedings{ yu2023crepe,
+    title={ {CREPE}: Open-Domain Question Answering with False Presuppositions }, 
+    author={ Yu, Xinyan Velocity and Min, Sewon and Zettlemoyer, Luke and Hajishirzi, Hannaneh },
+    year={ 2023 },
+    booktitle={ EMNLP },
+    url={ https://arxiv.org/abs/2211.17257 }
+}

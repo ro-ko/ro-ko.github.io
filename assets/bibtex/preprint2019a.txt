@@ -1,0 +1,6 @@
+@article{ gardner2019question,
+  title={ Question Answering is a Format; When is it Useful? },
+  author={ Gardner, Matt and Berant, Jonathan and Hajishirzi, Hannaneh and Talmor, Alon and Min, Sewon },
+  journal={ arXiv preprint arXiv:1909.11291 },
+  year={ 2019 }
+}

@@ -1,0 +1,6 @@
+@inproceedings{ gardner2019on,
+  title={ On Making Reading Comprehension More Comprehensive },
+  author={ Gardner, Matt and Berant, Jonathan and Hajishirzi, Hannaneh and Talmor, Alon and Min, Sewon },
+  booktitle={ MRQA Workshop @ EMNLP },
+  year={ 2019 }
+}

@@ -1,0 +1,6 @@
+@inproceedings{ iyer2021reconsider,
+    title={ {R}e{C}onsider: Re-Ranking using Span-Focused Cross-Attention for Open Domain Question Answering },
+    author={ Iyer, Srinivasan and Min, Sewon and Mehdad, Yashar and Yih, Wen-tau },
+    booktitle={ NAACL-HLT },
+    year={ 2021 }
+}

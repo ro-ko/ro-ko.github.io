@@ -1,0 +1,6 @@
+@inproceedings{ awadalla2022exploring,
+    title={ Exploring The Landscape of Distributional Robustness for Question Answering Models },
+    author={ Awadalla, Anas and Wortsman, Mitchell and Ilharco, Gabriel and Min, Sewon and Hajishirzi, Hannaneh and Schmidt, Ludwig },
+    booktitle={ Findings of EMNLP },
+    year={ 2022 }
+}

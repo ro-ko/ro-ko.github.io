@@ -1,0 +1,11 @@
+@inproceedings{ khashabi2022prompt,
+    title={ {P}rompt {W}aywardness: The Curious Case of Discretized Interpretation of Continuous Prompts },
+    author={ Khashabi, Daniel and Lyu, Shane and Min, Sewon and Qin, Lianhui and Richardson, Kyle and Singh, Sameer and Welleck, Sean and Hajishirzi, Hannaneh and Khot, Tushar and Sabharwal, Ashish and Choi, Yejin },
+    booktitle={ NAACL-HLT },
+    year={ 2022 }
+}
+
+
+
+
+

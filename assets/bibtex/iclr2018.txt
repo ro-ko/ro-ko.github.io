@@ -1,0 +1,6 @@
+@inproceedings{ seo2018neural,
+  title={ Neural Speed Reading via {S}kim-{RNN} },
+  author={ Seo, Minjoon and Min, Sewon and Farhadi, Ali and Hajishirzi, Hannaneh },
+  booktitle={ ICLR },
+  year={ 2018 }
+}

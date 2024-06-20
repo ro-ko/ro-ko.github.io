@@ -1,0 +1,6 @@
+@inproceedings{ karpukhin2020dense,
+    title={ Dense Passage Retrieval for Open-domain Question Answering },
+    author={ Karpukhin, Vladimir and Oguz, Barlas and Min, Sewon and Wu, Ledell and Edunov, Sergey and Chen, Danqi and Yih, Wen-tau },
+    booktitle={ EMNLP },
+    year={ 2020 }
+}

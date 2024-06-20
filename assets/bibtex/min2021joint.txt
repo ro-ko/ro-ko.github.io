@@ -1,0 +1,6 @@
+@inproceedings{ min2021joint ,
+  title={ Joint Passage Ranking for Diverse Multi-Answer Retrieval },
+  author={ Min, Sewon and Lee, Kenton and Chang, Ming-Wei and Toutanova, Kristina and Hajishirzi, Hannaneh },
+  booktitle={ EMNLP },
+  year={ 2021 }
+}

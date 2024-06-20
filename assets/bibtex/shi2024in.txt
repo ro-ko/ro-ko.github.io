@@ -1,0 +1,7 @@
+@inproceedings{ shi2024in,
+    title={ In-Context Pretraining: Language Modeling Beyond Document Boundaries },
+    author={ Weijia Shi, Sewon Min, Maria Lomeli, Chunting Zhou, Margaret Li, Victoria Lin, Noah A. Smith, Luke Zettlemoyer, Scott Yih, Mike Lewis },
+    year={ 2024 },
+    booktitle={ ICLR },
+    url={ https://arxiv.org/abs/2310.10638 }
+}

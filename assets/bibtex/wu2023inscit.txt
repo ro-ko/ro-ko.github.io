@@ -1,0 +1,6 @@
+@article{ wu2023inscit,
+    title={ {INSCIT}: Information-Seeking Conversations with Mixed-Initiative Interactions },
+    author={ Wu, Zeqiu Wu and Parish, Ryu and Cheng, Hao and Min, Sewon and Ammanabrolu, Prithviraj and Ostendorf, Mari and Hajishirzi, Hannaneh },
+    booktitle={ Transactions of the Association for Computational Linguistics (TACL) },
+    year={ 2023 }
+}

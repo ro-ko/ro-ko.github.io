@@ -1,0 +1,6 @@
+@article{ beltagy2021beyond ,
+  title={ Beyond Paragraphs: NLP for Long Sequences },
+  author={ Beltagy, Iz and Cohan, Arman and Hajishirzi, Hannaneh and Min, Sewon and Peters, Matthew E. },
+  journal={ NAACL-HLT (Tutorials) },
+  year={ 2021 }
+}

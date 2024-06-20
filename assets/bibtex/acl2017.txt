@@ -1,0 +1,6 @@
+@inproceedings{ min2017question,
+  title={ Question Answering through Transfer Learning from Large Fine-grained Supervision Data },
+  author={ Min, Sewon and Seo, Minjoon and Hajishirzi, Hannaneh },
+  booktitle={ ACL },
+  year={ 2017 }
+}

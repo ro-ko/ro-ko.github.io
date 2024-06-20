@@ -1,0 +1,6 @@
+@inproceedings{ min2022noisy,
+  title={ Noisy Channel Language Model Prompting for Few-Shot Text Classification },
+  author={ Min, Sewon and Lewis, Mike and Hajishirzi, Hannaneh and Zettlemoyer, Luke },
+  booktitle = { ACL },
+  year={ 2022 }
+}
