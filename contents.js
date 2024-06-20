@@ -1,4 +1,5 @@
 let people = {
+  'sunghwan': "Sunghwan Lee",
   'sewon': "<strong class='thicker'>Sewon Min</strong>",
   'hanna': "Hannaneh Hajishirzi",
   'luke': "Luke Zettlemoyer",
@@ -227,12 +228,10 @@ function add_info (paper, infos) {
 
 let intros = [
   `  Hello! <br />
-  I am a Ph.D. candidate in the Natural Language Processing group at the University of Washington.
-  I am fortunate to be advised by [hanna] and [luke].
-  I am supported by a ` + add_link("J.P. Morgan PhD Fellowship", "https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship") + `.
-  I have been a part-time visiting researcher at Meta AI (formerly Facebook AI Research) during my Ph.D., and
-  previously interned at Google Research (in 2020) and Salesforce Research (in 2017).
-  Prior to UW, I received B.S. in CSE from Seoul National University.
+  I am a MS. student in the Pattern Recognition and Machine Learning lab (PRML lab) at the Korea University.
+  I am fortunate to be advised by [sunghwan].
+  // I am supported by a ` + add_link("J.P. Morgan PhD Fellowship", "https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship") + `.
+  Prior to KU, I received B.S. in CSE and Mathematics from Jeonbuk National University.
   <br /><br />
 
   My primary research lies in the area of natural language processing and machine learning.
