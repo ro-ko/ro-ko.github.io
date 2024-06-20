@@ -55,6 +55,7 @@ let people = {
 };
 
 let people_website = {
+  'sunghwan': "http://ibi.korea.ac.kr/sub2_1.php?code=LSW",
   'hanna': "https://homes.cs.washington.edu/~hannaneh/",
   'luke': "https://www.cs.washington.edu/people/faculty/lsz",
   'minjoon': "https://seominjoon.github.io",
@@ -230,7 +231,6 @@ let intros = [
   `  Hello! <br />
   I am a MS. student in the Pattern Recognition and Machine Learning lab (PRML lab) at the Korea University.
   I am fortunate to be advised by [sunghwan].
-  // I am supported by a ` + add_link("J.P. Morgan PhD Fellowship", "https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/phd-fellowship") + `.
   Prior to KU, I received B.S. in CSE and Mathematics from Jeonbuk National University.
   <br /><br />
 
