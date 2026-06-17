@@ -1,0 +1,9 @@
+@inproceedings{kim2025hierarchical,
+  author       = {Kim, Woo-Chan and Roh, Keonwoo and Ju, Yeong-Joon and Nam, Hyun-Woo and Lee, Seong-Whan},
+  title        = {대규모 언어모델의 비용 효율적 텍스트 생성을 위한 계층적 계단식 프레임워크},
+  booktitle    = {한국정보과학회 2025 한국컴퓨터종합학술대회 논문집},
+  year         = {2025},
+  pages        = {1012--1014},
+  organization = {한국정보과학회},
+  url          = {https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12318396}
+}

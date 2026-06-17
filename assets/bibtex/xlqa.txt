@@ -1,0 +1,19 @@
+@inproceedings{roh-etal-2025-xlqa,
+    title = "{XLQA}: A Benchmark for Locale-Aware Multilingual Open-Domain Question Answering",
+    author = "Roh, Keonwoo  and
+      Ju, Yeong-Joon  and
+      Lee, Seong-Whan",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.1466/",
+    doi = "10.18653/v1/2025.emnlp-main.1466",
+    pages = "28809--28821",
+    ISBN = "979-8-89176-332-6"
+}

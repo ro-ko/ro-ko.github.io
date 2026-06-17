@@ -1,8 +1,11 @@
 let people = {
-  'sunghwan': "Sunghwan Lee",
+  'sunghwan': "Seong-Whan Lee",
   'keonwoo': "<strong class='thicker'>Keonwoo Roh</strong>",
   'kyoobin': "Kyoobin Lee",
   'jinhong': "Jinhong Jung",
+  'youngju': "Yeong-Joon Ju",
+  'woochan': "Woo-Chan Kim",
+  'hyunwoo': "Hyun-Woo Nam",
 };
 
 let people_website = {
@@ -12,8 +15,15 @@ let people_website = {
 };
 
 let pub_dictionary = {
-  'xlqa': {},
-  'hierarchical-cascading': {},
+  'xlqa': {
+    'paper': 'https://aclanthology.org/2025.emnlp-main.1466/',
+    'code': 'https://github.com/ro-ko/XLQA',
+    'BibTeX': 'assets/bibtex/xlqa.txt',
+  },
+  'hierarchical-cascading': {
+    'paper': 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12318396',
+    'BibTeX': 'assets/bibtex/hierarchical-cascading.txt',
+  },
 }
 
 let website_directory = {
@@ -57,7 +67,7 @@ let news = [
 let publications = [
   [
     "XLQA: A Benchmark for Locale-Aware Multilingual Open-Domain Question Answering",
-    ['keonwoo'],
+    ['keonwoo', 'youngju', 'sunghwan'],
     "EMNLP 2025",
     "",
     "2025",
@@ -65,7 +75,7 @@ let publications = [
   ],
   [
     "Hierarchical Cascading for Cost-Efficient Text Generation with Large Language Models",
-    ['keonwoo'],
+    ['woochan', 'keonwoo', 'youngju', 'hyunwoo', 'sunghwan'],
     "KCC 2025",
     "",
     "2025",
