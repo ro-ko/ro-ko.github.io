@@ -180,11 +180,9 @@ window.onload = function () {
         pubText += "[<a href='"+value+"' target='_blank'>"+key+"</a>] ";
       }
     }
-    var bibtex = "assets/bibtex/"+keyword+".txt";
     if ("BibTeX" in optional_dict) {
-      bibtex = optional_dict["BibTeX"]
+      pubText += "[<a href='" + optional_dict["BibTeX"] + "' target='_blank'>BibTeX</a>] ";
     }
-    pubText += "[<a href='" + bibtex + "' target='_blank'>BibTeX</a>] ";
     pubText += "</p>"
   }
   //}
@@ -192,11 +190,7 @@ window.onload = function () {
 
   Please see my <a href="https://scholar.google.com/citations?user=jU4IZs4AAAAJ&hl=en" target="_blank">
   <span style="font-size:120%"><i class="ai ai-google-scholar"></i></span>
-  <!--<span style="font-size:110%"><i class="fa fa-google"></i></span>-->
-  google scholar</a> or <a href="https://www.semanticscholar.org/author/Sewon-Min/48872685" target="_blank">
-  <span style="font-size:120%"><i class="ai ai-semantic-scholar"></i></span>
-  <!--<span style="font-size:110%"><i class="fa fa-google"></i></span>-->
-  semantic scholar</a> for an up-to-date list.
+  google scholar</a> for an up-to-date list.
   <br /><br />
   *: equal contribution` +pubText;
   // load education
@@ -213,17 +207,20 @@ window.onload = function () {
   let expText = "";
   for (let i=0; i<experiences.length; i++) {
     console.assert(experiences[i].length == 4);
-    let verb = "supervised"; //(experiences[i][0].includes("University")) ? "advised" : "mentored";
+    let verb = "supervised";
     expText += "<h4>" + experiences[i][0] + " <sup>" + experiences[i][1] + "</sup></h4>";
-    expText += "<p>" + experiences[i][2] + ", " + verb + " by ";
-    for (let j=0; j<experiences[i][3].length; j++) {
-      if (j>0 && j===experiences[i][3].length-1) {
-        expText += " and ";
-      } else if (j>0) {
-        expText += ", ";
+    expText += "<p>" + experiences[i][2];
+    if (experiences[i][3].length > 0) {
+      expText += ", " + verb + " by ";
+      for (let j=0; j<experiences[i][3].length; j++) {
+        if (j>0 && j===experiences[i][3].length-1) {
+          expText += " and ";
+        } else if (j>0) {
+          expText += ", ";
+        }
+        let mentor = experiences[i][3][j]
+        expText += "<a href='" + people_website[mentor] + "' target='_blank'>" + people[mentor] + "</a>";
       }
-      let mentor = experiences[i][3][j]
-      expText += "<a href='" + people_website[mentor] + "' target='_blank'>" + people[mentor] + "</a>";
     }
     expText += "</p>";
   }

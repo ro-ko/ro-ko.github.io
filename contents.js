@@ -7,12 +7,13 @@ let people = {
 
 let people_website = {
   'sunghwan': "http://ibi.korea.ac.kr/sub2_1.php?code=LSW",
-  'Kyoobin Lee': "https://sites.google.com/view/gistailab/members/professor?authuser=0",
-  'Jinhong Jung': "https://jinhongjung.github.io/",
+  'kyoobin': "https://sites.google.com/view/gistailab/members/professor?authuser=0",
+  'jinhong': "https://jinhongjung.github.io/",
 };
 
 let pub_dictionary = {
-
+  'xlqa': {},
+  'hierarchical-cascading': {},
 }
 
 let website_directory = {
@@ -33,16 +34,18 @@ function add_info (paper, infos) {
 
 let intros = [
   `  Hello! <br />
-  I am a MS. student in the Pattern Recognition and Machine Learning lab (PRML lab) at the Korea University.
+  I am an M.S. student in the Pattern Recognition and Machine Learning lab (PRML lab) at Korea University.
   I am fortunate to be advised by [sunghwan].
-  Prior to KU, I received B.S. in CSE and Mathematics from Jeonbuk National University.
+  Prior to KU, I received B.S. in Computer Science & Mathematics from Jeonbuk National University.
   <br /><br />
 
   My primary research lies in the area of natural language processing and machine learning.
-  Specifically:
+  Specifically, I am interested in:
   <ul style="padding-left: 30px; margin-top: 20px">
-    
-
+    <li>Efficient LLM inference and text generation</li>
+    <li>Multilingual and cross-lingual NLP</li>
+    <li>Vision-Language Models and multimodal agents</li>
+  </ul>
   <br /><br />
   `
 ]
@@ -52,16 +55,31 @@ let news = [
 ];
 
 let publications = [
+  [
+    "XLQA: A Benchmark for Locale-Aware Multilingual Open-Domain Question Answering",
+    ['keonwoo'],
+    "EMNLP 2025",
+    "",
+    "2025",
+    "xlqa"
+  ],
+  [
+    "Hierarchical Cascading for Cost-Efficient Text Generation with Large Language Models",
+    ['keonwoo'],
+    "KCC 2025",
+    "",
+    "2025",
+    "hierarchical-cascading"
+  ],
 ];
 
 let educations = [
   [
     "Korea University",
-    "09/2023&#8211;06/2025 (Expected)",
+    "08/2023&#8211;08/2026 (Expected)",
     [
-      "MS. student in Artificial Intelligence",
-      "Advisers: <a href='" + people_website['sunghwan'] + "' target='_blank'>" + people['sunghwan'] + "</a><br />" +
-      "Master's degree obtained in March 2020"
+      "M.S. in Artificial Intelligence, Department of Artificial Intelligence, College of Informatics",
+      "Adviser: <a href='" + people_website['sunghwan'] + "' target='_blank'>" + people['sunghwan'] + "</a>"
     ],
   ],
   [
@@ -75,12 +93,24 @@ let educations = [
   ],
   [
     "Honam Jeil High School",
-    "02/2014&#8211;02/2017",
+    "03/2014&#8211;02/2017",
     [],
   ]
 ];
 
 let experiences = [
+  [
+    "Netmarble Corporation",
+    "02/2026&#8211;Present",
+    "AI Research Intern",
+    []
+  ],
+  [
+    "Naver Corporation",
+    "09/2025&#8211;11/2025",
+    "Machine Learning Engineer Intern",
+    []
+  ],
   [
     "Gwangju Institute of Science and Technology",
     "12/2022&#8211;06/2023",
