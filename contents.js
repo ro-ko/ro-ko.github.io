@@ -18,6 +18,8 @@ let pub_dictionary = {
   'xlqa': {
     'paper': 'https://aclanthology.org/2025.emnlp-main.1466/',
     'code': 'https://github.com/ro-ko/XLQA',
+    'slides': 'xlqa_slides.pdf',
+    'poster': 'xlqa_poster.pdf',
     'BibTeX': 'assets/bibtex/xlqa.txt',
   },
   'hierarchical-cascading': {
