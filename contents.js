@@ -63,7 +63,11 @@ let intros = [
 ]
 
 let news = [
-
+  `[Feb 2026] Started as AI Research Intern at <a href="https://company.netmarble.com" target="_blank">Netmarble Corporation</a>.`,
+  `[Nov 2025] Paper "<a href="https://aclanthology.org/2025.emnlp-main.1466/" target="_blank">XLQA: A Benchmark for Locale-Aware Multilingual Open-Domain Question Answering</a>" accepted at EMNLP 2025.`,
+  `[Sep 2025] Started as Machine Learning Engineer Intern at <a href="https://www.navercorp.com" target="_blank">Naver Corporation</a>.`,
+  `[Jul 2025] Paper "<a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12318396" target="_blank">Hierarchical Cascading for Cost-Efficient Text Generation with Large Language Models</a>" accepted at KCC 2025.`,
+  `[Aug 2023] Started M.S. in Artificial Intelligence at Korea University, advised by Prof. <a href="http://ibi.korea.ac.kr/sub2_1.php?code=LSW" target="_blank">Seong-Whan Lee</a>.`,
 ];
 
 let publications = [
