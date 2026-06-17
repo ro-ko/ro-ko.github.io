@@ -1,6 +1,0 @@
-@article{shi2023replug,
-  title={Replug: Retrieval-augmented black-box language models},
-  author={Shi, Weijia and Min, Sewon and Yasunaga, Michihiro and Seo, Minjoon and James, Rich and Lewis, Mike and Zettlemoyer, Luke and Yih, Wen-tau},
-  journal={Preprint},
-  year={2023}
-}
